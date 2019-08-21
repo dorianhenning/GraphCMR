@@ -6,3 +6,6 @@ tar -xvf data/models.tar -C data && rm data/models.tar
 
 # Download SMPL model
 wget https://github.com/classner/up/raw/master/models/3D/basicModel_neutral_lbs_10_207_0_v1.0.0.pkl --directory-prefix=data
+
+# Download YOLO Human Detector weights
+wget https://pjreddie.com/media/files/yolov3.weights --directory-prefix=data/models

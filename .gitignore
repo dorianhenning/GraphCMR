@@ -111,3 +111,9 @@ logs/
 
 # vim swap files
 *.swp
+
+# weight files and checkpoints
+*.pt
+*.weights
+*.pkl
+data/models/
